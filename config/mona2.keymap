@@ -28,11 +28,6 @@
             bindings = <&lt 4 ESC>;
             key-positions = <39 38>;
         };
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
-        };
     };
 
     macros {
@@ -87,10 +82,10 @@
 
         SYMBOLS {
             bindings = <
-&kp ESCAPE       &trans             &trans    &trans                &kp CARET                         &kp GRAVE      &kp DOUBLE_QUOTES  &kp TILDE             &kp BACKSLASH          &kp AT_SIGN
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR            &kp PERCENT            &kp EQUAL  &kp AMPERSAND  &kp SQT            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
-&kp LEFT_SHIFT   &trans             &trans    &kp LG(LS(NUMBER_4))  &trans       &trans    &trans     &kp SEMICOLON  &kp COLON          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &mt RIGHT_SHIFT PIPE
-&trans           &trans             &trans    &trans                &trans       &trans    &trans     &trans                                                                         &kp PIPE
+&kp ESCAPE       &kp GRAVE          &trans    &trans                &trans                            &kp CARET      &kp GRAVE  &kp TILDE             &kp BACKSLASH          &kp AT_SIGN
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR            &kp PERCENT            &kp EQUAL  &kp AMPERSAND  &kp SQT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
+&kp LEFT_SHIFT   &trans             &trans    &kp LG(LS(NUMBER_4))  &trans       &trans    &trans     &kp SEMICOLON  &kp COLON  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp RIGHT_SHIFT
+&trans           &trans             &trans    &trans                &trans       &trans    &trans     &trans                                                                 &kp PIPE
             >;
 
             sensor-bindings = <&scroll_right_left>;
@@ -109,9 +104,9 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &trans                                     &trans    &kp HOME        &kp UP_ARROW    &kp END          &trans
+&kp ESCAPE      &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &trans                                     &trans    &kp PG_UP       &kp UP_ARROW    &trans           &trans
 &trans          &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))            &trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
-&kp LEFT_SHIFT  &kp LEFT_SHIFT      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &trans    &trans  &trans    &trans          &kp PAGE_UP     &kp PAGE_DOWN    &kp RIGHT_SHIFT
+&kp LEFT_SHIFT  &kp LEFT_SHIFT      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &trans    &trans  &trans    &kp PG_DN       &trans          &trans           &kp RIGHT_SHIFT
 &trans          &trans              &trans                  &trans                   &trans                   &trans    &trans  &trans                                                     &trans
             >;
 
