@@ -93,10 +93,10 @@
 
         NUM_FUNC {
             bindings = <
-&kp ESC       &kp EQUAL     &kp PLUS      &kp MINUS     &kp ASTERISK                     &kp SLASH     &kp COLON  &kp COMMA  &kp PERIOD  &kp AT_SIGN
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5            &kp F11  &kp NUMBER_6  &kp N7     &kp N8     &kp N9      &kp N0
-&kp F1        &kp F2        &kp F3        &kp F4        &kp F5        &trans    &trans   &kp F6        &kp F7     &kp F8     &kp F9      &kp F10
-&trans        &trans        &trans        &trans        &trans        &trans    &trans   &trans                                          &kp F12
+&kp ESC            &kp EQUAL     &kp PLUS      &kp MINUS     &kp ASTERISK                     &kp SLASH     &kp COLON  &kp COMMA  &kp PERIOD  &kp AT_SIGN
+&kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5            &kp F11  &kp NUMBER_6  &kp N7     &kp N8     &kp N9      &kp N0
+&mt LEFT_SHIFT F1  &kp F2        &kp F3        &kp F4        &kp F5        &trans    &trans   &kp F6        &kp F7     &kp F8     &kp F9      &kp F10
+&trans             &trans        &trans        &trans        &trans        &trans    &trans   &trans                                          &kp F12
             >;
 
             sensor-bindings = <&scroll_up_down>;
